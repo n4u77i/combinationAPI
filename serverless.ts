@@ -9,7 +9,7 @@ const serverlessConfiguration: AWS = {
   provider: {
     name: 'aws',
     runtime: 'nodejs14.x',
-    profile: 'nautti_serverless_dell_user',   // AWS user in credentials file, if left default is used
+    profile: '<your_aws_user>',   // AWS user in credentials file, if left default is used
     region: 'us-east-1',  // Default region (if not mentioned explicitly)
     apiGateway: {
       minimumCompressionSize: 1024,
